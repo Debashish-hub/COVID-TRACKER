@@ -1,0 +1,47 @@
+body{
+  background-color:black;
+  color: white;
+}
+h1 {
+  animation: textgrowth 1s infinite alternate;
+}
+
+@keyframes textgrowth {
+   0% {
+   font-size: 20px;
+   }
+   100% {
+   font-size: 25px;
+   }
+}
+h1, h2{
+  text-align: center;
+}
+h2{
+  padding-top: 20px;
+}
+ul{
+  text-align: center;
+  list-style: none;
+  display: flex;
+  flex-flow: wrap;
+}
+li{
+  color: rgb(175, 71, 245);
+  width: 50%;
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+li:hover{
+  border: solid white thin;
+  background-color: rgb(255, 255, 255);
+}
+.card__total{
+  color: red;
+  font-size: xx-large;
+}
+.card__name{
+  font-size: x-large;
+  padding: 2px;
+}
